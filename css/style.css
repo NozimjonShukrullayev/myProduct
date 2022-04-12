@@ -556,6 +556,7 @@ a.link {
     padding: 0 15px;
   }
   .info__box > h1.size__40 {
+    font-size: 34px;
     margin-top: 8px;
   }
   .info__box > h1.size__40 {
@@ -563,5 +564,14 @@ a.link {
   }
   .btns__box > .row {
     justify-content: space-evenly;
+  }
+  .green__btn {
+    padding: 9px 22.5px;
+    font-size: 14px;
+  }
+  .watch__btn {
+    margin-left: 0rem;
+    flex-basis: 53%;
+    font-size: 14px;
   }
 }
