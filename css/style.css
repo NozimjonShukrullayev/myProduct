@@ -512,9 +512,9 @@ a.link {
     margin-top: 8px;
   }
   .info__box > h1.size__40 {
-    word-spacing: 3px;
+    word-spacing: 0px;
   }
   .btns__box > .row {
-    justify-content: space-evenly;
+    justify-content: center;
   }
 }
