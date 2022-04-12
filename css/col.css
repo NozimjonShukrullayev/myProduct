@@ -37,6 +37,9 @@
 .middle {
   align-items: center;
 }
+.align__start {
+  align-items: flex-start;
+}
 .align-baseline {
   align-items: baseline;
 }

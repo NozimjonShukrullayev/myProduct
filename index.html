@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>myProduct</title>        <!-- this is exam for second month -->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="shortcut icon" href="images/favicon-logo.svg" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -151,15 +152,15 @@
                 <p class="size__p__16 padding__b">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
               </div>
               <div class="services__content__main">
-               <div class="row middle">
+               <div class="row middle marin__bottom">
                 <i class="fa-solid fa-check col-xl-1"></i>
                 <p class="size__p__16 col-xl-8 col-sm-10">Never worry about overpaying for your energy again. </p>
                </div>
-               <div class="row middle">
+               <div class="row middle marin__bottom">
                 <i class="fa-solid fa-check red col-xl-1"></i>
                 <p class="size__p__16 col-xl-10 col-sm-10">We will only switch you to energy companies that we trust and will treat you right </p>
                </div>
-               <div class="row middle">
+               <div class="row middle marin__bottom">
                 <i class="fa-solid fa-check blue col-xl-1"></i>
                 <p class="size__p__16 col-xl-10 col-sm-10">We track the markets daily and know where the savings are. </p>
                </div>
@@ -232,12 +233,241 @@
       </div>
     </section>
     <!-- end team -->
+
+    <!-- start order__history -->
+    <section id="order__history">
+      <div class="container">
+        <div class="history__title">
+          <h2 class="size__34">Contents Strategies</h2>
+          <p class="size__p__16__500">We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
+        </div>
+        <div class="history__grid">
+          <div class="history__item">
+            <img class="history__img" src="images/history-one.png" alt="history-one">
+            <div class="history__content">
+              <p class="size__p__16">By <span class="bold__word">Wahid Ari</span> |  03 March 2019</p>
+              <h4 class="size__24">Increasing Prosperity With Positive Thinking</h4>
+            </div>
+          </div>
+          <div class="history__item">
+            <img class="history__img" src="images/history-two.png" alt="history-two">
+            <div class="history__content">
+              <p class="size__p__16">By <span class="bold__word">Wahid Ari</span> |  03 March 2019</p>
+              <h4 class="size__24 active__text">Motivation Is The First Step To Success</h4>
+            </div>
+          </div>
+          <div class="history__item">
+            <img class="history__img" src="images/history-three.png" alt="history-three">
+            <div class="history__content">
+              <p class="size__p__16">By <span class="bold__word">Wahid Ari</span> |  03 March 2019</p>
+              <h4 class="size__24">Success Steps For Your Personal Or Business</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row dots__box">
+          <span class="dot">.</span><span class="dot">.</span><span class="dot">.</span>
+        </div>
+      </div>
+    </section>
+    <!-- end order__history -->
+
+    <!-- start pricing -->
+    <section id="pricing">
+      <div class="container">
+        <div class="pricing__title">
+          <h2 class="size__34">Price Table</h2>
+          <p class="size__p__16__500">We offer competitive price</p>
+        </div>
+        <div class="pricing__grid">
+          <div class="pricing__card">
+            <h4 class="size__24">Free</h4>
+            <p class="size__16__40">Brief price description</p>
+            <div class="row card__price center middle">
+              <span class="card__number active__text col-xl-2">0</span>
+              <div class="card__element">
+                <p class="active__text">$</p>
+                <p class="size__l__20">Per / month</p>
+              </div>
+            </div>
+            <ul class="card__list list">
+              <li class="card__item">Only 2 Operators</li>
+              <li class="card__item">Notifications</li>
+              <li class="card__item">Landing Pages</li>
+            </ul>
+            <a class="green__btn link pricing__btn" href="#">Order Now</a>
+          </div>
+
+          <div class="pricing__card green__card">
+            <h4 class="size__24 white__text">Standard</h4>
+            <p class="size__16__40 white__text">Brief price description</p>
+            <div class="row card__price center middle">
+              <span class="card__number white__text col-xl-2">5</span>
+              <div class="card__element">
+                <p class="white__text">$</p>
+                <p class="size__l__20">Per / month</p>
+              </div>
+            </div>
+            <ul class="card__list list">
+              <li class="card__item">5+ Operators</li>
+              <li class="card__item">Notifications</li>
+              <li class="card__item">Landing Pages</li>
+            </ul>
+            <a class="white__btn link white__text pricing__btn" id="btn__bg" href="#">Order Now</a>
+          </div>
+
+          <div class="pricing__card">
+            <h4 class="size__24">Premium</h4>
+            <p class="size__16__40">Brief price description</p>
+            <div class="row card__price center middle">
+              <span class="card__number active__text col-xl-3">10</span>
+              <div class="card__element">
+                <p class="active__text">$</p>
+                <p class="size__l__20">Per / month</p>
+              </div>
+            </div>
+            <ul class="card__list list">
+              <li class="card__item">10+ Operators</li>
+              <li class="card__item">Notifications</li>
+              <li class="card__item">Landing Pages</li>
+            </ul>
+            <a class="green__btn link pricing__btn" href="#">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end pricing -->
+
+    <!-- start reviews -->
+    <section id="reviews">
+      <div class="container">
+        <div class="reviews__title">
+          <h2 class="size__34">What Clients Say</h2>
+          <p class="size__p__16__500">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+        </div>
+        <div class="reviews__grid">
+          <div class="reviews__card">
+            <div class="row stars__social">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bx-star'></i>
+            </div>
+            <p class="size__p__16">Product helps you see how many more days you need to work to reach your financial goal.</p>
+            <div class="row reviews__profile between">
+              <img src="images/reviews-one.png" alt="reviews-one">
+              <div class="reviews__content col-xl-9">
+                <p class="size__p__16 active__text"><b>Wahid Ari</b></p>
+                <p>Designer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="reviews__card">
+            <div class="row stars__social">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bx-star'></i>
+            </div>
+            <p class="size__p__16">Product helps you see how many more days you need to work to reach your financial goal.</p>
+            <div class="row reviews__profile between">
+              <img src="images/reviews-two.png" alt="reviews-one">
+              <div class="reviews__content col-xl-9">
+                <p class="size__p__16 active__text"><b>Wahid Ari</b></p>
+                <p>Designer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="reviews__card">
+            <div class="row stars__social">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bx-star'></i>
+            </div>
+            <p class="size__p__16">Product helps you see how many more days you need to work to reach your financial goal.</p>
+            <div class="row reviews__profile between">
+              <img src="images/reviews-three.png" alt="reviews-one">
+              <div class="reviews__content col-xl-9">
+                <p class="size__p__16 active__text"><b>Wahid Ari</b></p>
+                <p>Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end reviews -->
+
+    <!-- start cta -->
+    <section id="cta">
+      <div class="container">
+        <div class="row center">
+          <div class="cta col-xl-11 col-md-12 col-sm-12">
+            <div class="row between">
+              <div class="cta__content col-xl-7 col-md-10 col-sm-12 col-xs-12">
+                <h3 class="size__32 white__text">Join 100 Compannies who boost their business with Product</h3>
+                <a class="cta__content__btn white__btn link" href="#">Get This</a>
+              </div>
+              <div class="cta__img col-xl-5 col-md-8 col-sm-12 col-xs-12">
+                <img src="images/cta.png" alt="cta-section-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end cta -->
   </main>
   <!-- end main -->
 
   <!-- start footer -->
   <footer id="site__footer">
-
+    <div class="container">
+      <div class="footer__grid between align__start">
+        <div class="footer__logo">
+          <div class="logo__box">
+            <a class="logo__link link" href="#">
+              <div class="row">
+                <img class="logo__img" src="images/favicon-logo.svg" alt="logo">
+                <img class="logo__two__img" src="images/logo.svg" alt="logo">
+              </div>
+            </a>
+          </div>
+          <div class="social__media">
+            <div class="row evenly">
+              <a class="social__link link col-xl-3 col-sm-2 col-xs-2" href="#"><img src="images/instagram.svg" alt="instagram"></a>
+              <a class="social__link link col-xl-3 col-sm-2 col-xs-2" href="#"><img src="images/facebook.svg" alt="facebook"></a>
+              <a class="social__link link col-xl-3 col-sm-2 col-xs-2" href="#"><img src="images/twitter.svg" alt="twitter"></a>
+            </div>
+          </div>
+        </div>
+        <ul class="footer__list list">
+          <li class="footer__item"><a class="footer__link link" href="#"><b>Resource</b></a></li>
+          <li class="footer__item"><a class="footer__link link" href="#">About Us</a></li>
+          <li class="footer__item"><a class="footer__link link" href="#">Blog</a></li>
+          <li class="footer__item"><a class="footer__link link" href="#">Contact</a></li>
+          <li class="footer__item"><a class="footer__link link" href="#">FAQ</a></li>
+        </ul>
+        <ul class="footer__list list">
+          <li class="footer__item"><a class="footer__link link" href="#"><b>Legal Stuff</b></a></li>
+          <li class="footer__item"><a class="footer__link link" href="#">Disclaimer</a></li>
+          <li class="footer__item"><a class="footer__link link" href="#">Financing</a></li>
+          <li class="footer__item"><a class="footer__link link" href="#">Privacy Policy</a></li>
+          <li class="footer__item"><a class="footer__link link" href="#">Terms of Service</a></li>
+        </ul>
+        <div class="footer__form">
+          <p class="footer__form__text">knowing you're always on the best energy deal.</p>
+          <input type="text" id="footer__input" name="footer__input">
+          <a class="green__btn footer__btn padding link" href="#">Sign up Now</a>
+        </div>
+      </div>
+      <p class="author">Made With Love By Figmaland All Right Reserved</p>
+    </div>
   </footer>
   <!-- end footer -->
 
