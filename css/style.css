@@ -473,6 +473,9 @@ a.link {
   .services__content {
     padding-right: 0px;
   }
+  .services__content__main > .row.between {
+    justify-content: space-between;
+  }
   .fa-solid.fa-check {
     font-size: 18px;
     margin-right: 10px;
@@ -503,9 +506,15 @@ a.link {
 
 @media only screen and (max-width:575px) { 
   .info__box > p.size__p__18 {
-    padding: 0 5px;
+    padding: 0 15px;
   }
   .info__box > h1.size__40 {
     margin-top: 8px;
+  }
+  .info__box > h1.size__40 {
+    word-spacing: 3px;
+  }
+  .btns__box > .row {
+    justify-content: space-evenly;
   }
 }
