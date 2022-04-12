@@ -923,6 +923,12 @@ a.link {
     flex-basis: 53%;
     font-size: 14px;
   }
+  .history__grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 359px);
+    justify-content: center;
+    grid-gap: 10px;
+  }
   .reviews__title {
     padding: 50px 0;
   }
@@ -942,5 +948,8 @@ a.link {
   }
   #site__footer .footer__logo .social__media > .row.evenly, .footer__logo .logo__link > .row {
     justify-content: center;
+  }
+  .cta__content {
+    padding: 20px;
   }
 }
